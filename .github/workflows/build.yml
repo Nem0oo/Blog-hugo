@@ -1,0 +1,44 @@
+# 📛 Nom du workflow
+name: Build and Deploy Hugo Site
+
+# 🚀 Ce workflow se déclenche à chaque push sur main
+on:
+  push:
+    branches:
+      - main
+
+# ⚙️ Jobs à exécuter
+jobs:
+  build:
+    name: Build & Push Docker Image
+    runs-on: ubuntu-latest  # Machine virtuelle Linux
+
+    steps:
+      # 🧾 Étape 1 – Récupère le code de ton repo
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 🐳 Étape 2 – Installe Docker CLI (déjà présent dans l'image GitHub)
+      # Pas besoin d'étape spéciale ici
+
+      # 🧱 Étape 3 – Build du site Hugo avec Docker
+      - name: Build Hugo static site
+        run: |
+          docker run --rm -v ${{ github.workspace }}:/src klakegg/hugo:ext
+
+      # 🐳 Étape 4 – Build de l'image Docker qui sert le site
+      - name: Build Docker image
+        run: |
+          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/mon-site-hugo:latest .
+
+      # 🔐 Étape 5 – Login Docker Hub (avec secrets GitHub)
+      - name: Login to Docker Hub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      # 📦 Étape 6 – Push de l'image
+      - name: Push Docker image
+        run: |
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/mon-site-hugo:latest
