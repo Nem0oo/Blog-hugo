@@ -1,7 +1,11 @@
 ---
 title: "Bonjour la toile"
-date: 2025-09-17
+date: 2025-09-18
 draft: false
 ---
 
-Bienvenue sur mon blog, j'ai rien à dire mais ca me fait une place pour le faire.
+Bienvenue sur mon blog.
+
+::: info
+Je n'ai rien à dire mais ca me fait un endroit ou en parler...
+:::
