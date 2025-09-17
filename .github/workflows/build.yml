@@ -20,6 +20,18 @@ jobs:
 
       # 🐳 Étape 2 – Installe Docker CLI (déjà présent dans l'image GitHub)
       # Pas besoin d'étape spéciale ici
+      - name: Vérifier le contenu du dossier monté
+        run: |
+          echo "::notice::Contenu du dossier avant build"
+          ls -l ${{ github.workspace }}
+          cat ${{ github.workspace }}/config.toml || echo "::error::Pas de config.toml"
+
+      - name: Debug inside container
+        run: |
+          docker run --rm \
+            -v ${{ github.workspace }}:/src \
+            -w /src \
+            alpine:latest sh -c "ls -l /src && cat /src/config.toml"
 
       # 🧱 Étape 3 – Build du site Hugo avec Docker
       - name: Build Hugo static site
