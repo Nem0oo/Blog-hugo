@@ -26,6 +26,11 @@ jobs:
         run: |
           docker run --rm -v ${{ github.workspace }}:/src -u $(id -u):$(id -g) gohugoio/hugo:latest
 
+      - name: Debug public folder
+        run: |
+          echo "::debug::Contenu du dossier public/"
+          ls -l public || echo "Dossier public non généré !"
+
       # 🐳 Étape 4 – Build de l'image Docker qui sert le site
       - name: Build Docker image
         run: |
