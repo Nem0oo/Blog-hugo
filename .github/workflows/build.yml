@@ -26,6 +26,10 @@ jobs:
         run: |
           docker run --rm -v ${{ github.workspace }}:/src -u $(id -u):$(id -g) gohugoio/hugo:latest
 
+      - name: Liste le contenu après build
+        run: |
+          find . -type f
+
       - name: Debug public folder
         run: |
           echo "::debug::Contenu du dossier public/"
