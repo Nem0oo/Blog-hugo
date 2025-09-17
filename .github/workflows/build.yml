@@ -25,7 +25,7 @@ jobs:
       - name: Build Hugo static site
         run: |
           mkdir .tmp
-          docker run --rm -v $(pwd)/.tmp:/tmp -v ${{ github.workspace }}:/src -w /src -u $(id -u):$(id -g) gohugoio/hugo:latest
+          docker run --rm -v $(pwd)/.tmp:/tmp -v ${{ github.workspace }}:/src -w /src -u $(id -u):$(id -g) gohugoio/hugo:latest --verbose
 
       # 🐳 Étape 4 – Build de l'image Docker qui sert le site
       - name: Build Docker image
