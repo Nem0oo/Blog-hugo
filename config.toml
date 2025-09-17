@@ -1,9 +1,7 @@
-baseURL = "https://blog.gcourtot.fr/"
-languageCode = "fr"
-title = "Mon blog"
-theme = "cactus"
-googleAnalytics = ""
+baseURL = 'https://blog.gcourtot.fr/'
+languageCode = 'fr-FR'
+title = 'My New Hugo Site'
+theme = "papermod"
 
 [params]
-  author = "Guillaume Courtot"
-  description = "Un blog pour ne rien dire, mais le dire quand même."
+  ShowReadingTime = true
