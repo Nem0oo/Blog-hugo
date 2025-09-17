@@ -1,4 +1,7 @@
 baseURL = 'https://blog.gcourtot.fr/'
-languageCode = 'fr-fr'
+languageCode = 'fr-FR'
 title = 'My New Hugo Site'
-theme = "cactus"
+theme = "papermod"
+
+[params]
+  ShowReadingTime = true
