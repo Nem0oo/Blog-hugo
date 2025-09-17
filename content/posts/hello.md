@@ -1,7 +1,7 @@
 ---
-title: "Bonjour Hugo"
+title: "Bonjour la toile"
 date: 2025-09-17
 draft: false
 ---
 
-Voici un article de test pour générer un site statique.
+Bienvenue sur mon blog, j'ai rien à dire mais ca me fait une p'ace pi le faire.
