@@ -2,10 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://blog.gcourtot.fr/posts/hello/</loc>
+    <lastmod>2025-09-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://blog.gcourtot.fr/</loc>
+    <lastmod>2025-09-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://blog.gcourtot.fr/posts/</loc>
+    <lastmod>2025-09-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.gcourtot.fr/categories/</loc>
+  </url><url>
+    <loc>https://blog.gcourtot.fr/tags/</loc>
   </url>
 </urlset>

@@ -1,3 +1,7 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
+baseURL = 'https://blog.gcourtot.fr/'
+languageCode = 'fr-FR'
 title = 'My New Hugo Site'
+theme = "papermod"
+
+[params]
+  ShowReadingTime = true

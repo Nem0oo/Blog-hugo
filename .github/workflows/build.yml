@@ -24,7 +24,7 @@ jobs:
       # 🧱 Étape 3 – Build du site Hugo avec Docker
       - name: Build Hugo static site
         run: |
-          docker run --rm -v ${{ github.workspace }}:/src klakegg/hugo:ext
+          docker run --rm -v ${{ github.workspace }}:/src gohugoio/hugo:latest
 
       # 🐳 Étape 4 – Build de l'image Docker qui sert le site
       - name: Build Docker image
