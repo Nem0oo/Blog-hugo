@@ -20,7 +20,7 @@ theme = "papermod"
 
   [[menu.main]]
     name = "Blog"
-    url = "/post/"
+    url = "/posts/"
     weight = 10
 
   [[menu.main]]
