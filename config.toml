@@ -4,13 +4,8 @@ title = 'Bonjour la toile'
 theme = "papermod"
 
 [params]
-  ShowToc: true
+  ShowToc = true
   ShowReadingTime = true
-  outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON # necessary for search
 
 [markup]
   [markup.goldmark]
