@@ -3,14 +3,14 @@ languageCode = 'fr-FR'
 title = 'Bonjour la toile'
 theme = "papermod"
 
-outputs:
+[params]
+  ShowToc: true
+  ShowReadingTime = true
+  outputs:
   home:
     - HTML
     - RSS
     - JSON # necessary for search
-
-[params]
-  ShowReadingTime = true
 
 [markup]
   [markup.goldmark]
