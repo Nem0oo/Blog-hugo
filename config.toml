@@ -5,3 +5,8 @@ theme = "papermod"
 
 [params]
   ShowReadingTime = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
