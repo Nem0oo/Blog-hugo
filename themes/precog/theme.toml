@@ -1,7 +1,0 @@
-name = "precog"
-license = "MIT"
-licenselink = "https://opensource.org/licenses/MIT"
-description = "A futuristic Minority Report-style theme for Hugo"
-author = "Guillaume Courtot"
-homepage = "https://example.com"
-min_version = "0.87.0"
