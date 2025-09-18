@@ -1,7 +1,7 @@
 baseURL = 'https://blog.gcourtot.fr/'
 languageCode = 'fr-FR'
 title = 'Bonjour la toile'
-theme = "papermod"
+theme = "precog"
 
 [params]
   ShowReadingTime = true
