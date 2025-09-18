@@ -1,6 +1,5 @@
 ---
 title: "À propos"
-date: 2025-09-19
 menu: "main"
 weight: 20
 ---

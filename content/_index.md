@@ -3,6 +3,7 @@ title: "Accueil"
 menu: "main"
 weight: 1
 ---
+
 Bienvenue,  
 
 Salut ! Je suis Guillaume — un curieux invétéré, passionné par tout ce qui éveille l’esprit ou fait battre le cœur un peu plus fort.
