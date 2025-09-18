@@ -47,4 +47,4 @@ jobs:
       # Déclenchement maj PROD
       - name : Trigger production update
         run: |
-        curl https://n8n.gcourtot.fr/webhook/afc5b7d3-1132-424f-9235-36775748040b
+          curl https://n8n.gcourtot.fr/webhook/afc5b7d3-1132-424f-9235-36775748040b
