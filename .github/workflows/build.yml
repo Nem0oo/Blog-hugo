@@ -44,7 +44,20 @@ jobs:
         run: |
           docker push ${{ secrets.DOCKERHUB_USERNAME }}/mon-site-hugo:latest
 
-      # Déclenchement maj PROD
-      - name : Trigger production update
+      - name: Add SSH key
         run: |
-          curl https://n8n.gcourtot.fr/webhook/afc5b7d3-1132-424f-9235-36775748040b
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATEKEY_HUGO }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan gcourtot.fr >> ~/.ssh/known_hosts
+        shell: bash
+
+      - name: Deploy via SSH
+        run: |
+          ssh -i ~/.ssh/id_ed25519 gcourtot.fr './srv/blog/update-hugo.sh'
+
+
+      # Déclenchement maj PROD
+      #- name : Trigger production update
+       # run: |
+        #  curl https://n8n.gcourtot.fr/webhook/afc5b7d3-1132-424f-9235-36775748040b
