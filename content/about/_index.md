@@ -1,5 +1,5 @@
 ---
-title = "À propos"
-menu = "main"
-weight = 20
+title: "À propos"
+menu: "main"
+weight: 20
 ---
