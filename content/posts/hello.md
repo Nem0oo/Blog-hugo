@@ -6,6 +6,4 @@ draft: false
 
 Bienvenue sur mon blog.
 
-::: info
 Je n'ai rien à dire mais ca me fait un endroit ou en parler...
-:::
