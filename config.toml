@@ -34,4 +34,4 @@ theme = "papermod"
   [[menu.main]]
     name = "Projets"
     url = "/tags/projet/"
-    weight = 30
+    weight = 15
