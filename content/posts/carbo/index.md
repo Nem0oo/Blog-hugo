@@ -8,8 +8,6 @@ tags: ["projet"]
 
 ![Interface du calculateur de carbonatation](/posts/carbo/image.jpeg)
 
-## Calculateur de carbonatation pour bière maison
-
 Cette application web permet d’estimer la pression nécessaire pour atteindre un niveau de carbonatation donné, en fonction du style de bière, de la température, du volume et de la pression déjà présente dans le fût.
 
 Elle simplifie les calculs habituellement réalisés à partir de tables de carbonatation en automatisant la conversion des unités et l’interpolation des valeurs.
