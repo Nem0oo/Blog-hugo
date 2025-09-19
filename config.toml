@@ -3,6 +3,9 @@ languageCode = 'fr-FR'
 title = 'Bonjour la toile'
 theme = "papermod"
 
+[taxonomies]
+  tag = "tags"
+
 [params]
   ShowToc = true
   ShowReadingTime = true
@@ -27,3 +30,8 @@ theme = "papermod"
     name = "À propos"
     url = "/about/"
     weight = 20
+
+  [[menu.main]]
+    name = "Projets"
+    url = "/tags/projet/"
+    weight = 30
