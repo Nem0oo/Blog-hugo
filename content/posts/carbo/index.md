@@ -6,9 +6,6 @@ image: "image.jpeg"
 tags: ["projet"]
 ---
 
-
-![Interface du calculateur de carbonatation](/posts/carbo/image.jpeg)
-
 {{< img src="image.jpeg" alt="screenshot">}}
 
 
