@@ -9,7 +9,8 @@ tags: ["projet"]
 
 ![Interface du calculateur de carbonatation](/posts/carbo/image.jpeg)
 
-{{< image >}}
+{{< img src=« image.jpeg » alt=« screenshot » >}}
+
 
 Cette application web permet d’estimer la pression nécessaire pour atteindre un niveau de carbonatation donné, en fonction du style de bière, de la température, du volume et de la pression déjà présente dans le fût.
 

@@ -1,0 +1,18 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "" }}
+
+{{ with .Page.Resources.GetMatch $src }}
+  {{ $small := .Resize "400x" }}
+  {{ $medium := .Resize "800x" }}
+  {{ $large := .Resize "1200x" }}
+  <img 
+    src="{{ $medium.RelPermalink }}"
+    srcset="{{ $small.RelPermalink }} 400w, {{ $medium.RelPermalink }} 800w, {{ $large.RelPermalink }} 1200w"
+    sizes="(max-width: 600px) 400px, (max-width: 1000px) 800px, 1200px"
+    alt="{{ $alt }}"
+    style="max-width: 100%; height: auto;"
+    loading="lazy"
+  >
+{{ else }}
+  <p>⚠️ Image introuvable : {{ $src }}</p>
+{{ end }}
