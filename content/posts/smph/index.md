@@ -1,9 +1,11 @@
-——
-title: "Calculateur IBU SMPH"
-date: 2025-09-22
+---
+title: "Calculateur de Carbonatation"
+date: 2025-09-19
 draft: false
-tags: ["brassage", "bière", "IBU", "houblon", "outils"]
-—-
+image: "image.jpeg"
+tags: ["projet","brassage", "bière", "outils", "houblon", "IBU", ]
+---
+
 
 {{< img src="image.jpeg" alt="screenshot">}}
 
