@@ -3,7 +3,6 @@ title: "Calculateur IBU SMPH"
 date: 2025-09-23
 draft: false
 image: "image.jpeg"
-tags: ["projet","brassage", "bière", "outils", "houblon", "IBU"]
 ---
 
 {{< img src="image.jpeg" alt="screenshot">}}
