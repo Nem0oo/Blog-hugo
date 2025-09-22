@@ -1,5 +1,5 @@
 ---
-title: "Calculateur de Carbonatation"
+title: "Calculateur IBU SMPH"
 date: 2025-09-19
 draft: false
 image: "image.jpeg"
