@@ -6,7 +6,6 @@ image: "image.jpeg"
 tags: ["projet","brassage", "bière", "outils", "houblon", "IBU"]
 ---
 
-
 {{< img src="image.jpeg" alt="screenshot">}}
 
 Cette application web permet d’estimer l’amertume d’une bière à partir des caractéristiques de la cuve, du moût et des ajouts de houblon.  
