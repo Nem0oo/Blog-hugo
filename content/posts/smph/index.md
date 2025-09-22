@@ -1,13 +1,11 @@
-————
+——
 title: "Calculateur IBU SMPH"
 date: 2025-09-22
 draft: false
 tags: ["brassage", "bière", "IBU", "houblon", "outils"]
-————
+—-
 
 {{< img src="image.jpeg" alt="screenshot">}}
-
-## Calculateur d’IBU SMPH
 
 Cette application web permet d’estimer l’amertume d’une bière à partir des caractéristiques de la cuve, du moût et des ajouts de houblon.  
 Elle repose sur le modèle SMPH (Surface de contact Mout/Houblon), prenant en compte la géométrie de la cuve (diamètre), le volume de moût, les pertes, la densité et la vitesse d’évaporation.
