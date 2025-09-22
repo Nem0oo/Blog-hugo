@@ -5,7 +5,7 @@ draft: false
 tags: ["brassage", "bière", "IBU", "houblon", "outils"]
 ————
 
-{{< img src=« image.jpeg » alt="screenshot">}}
+{{< img src="image.jpeg" alt="screenshot">}}
 
 ## Calculateur d’IBU SMPH
 
