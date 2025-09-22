@@ -22,3 +22,5 @@ L’utilisateur renseigne :
 Ces données permettent d’évaluer précisément les conditions d’extraction des acides alpha du houblon et d’obtenir une estimation plus réaliste des IBU qu’avec les formules classiques (Tinseth, Rager…).
 
 Cet outil est utile aux brasseurs cherchant à modéliser l’impact réel de leurs ajouts de houblon, notamment dans des installations où la surface de contact joue un rôle important.
+
+[Calculateur](https://smph.gcourtot.fr)
