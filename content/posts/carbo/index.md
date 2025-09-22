@@ -3,7 +3,7 @@ title: "Calculateur de Carbonatation"
 date: 2025-09-19
 draft: false
 image: "image.jpeg"
-tags: ["projet"]
+tags: ["projet","brassage", "bière", "outils"]
 ---
 
 {{< img src="image.jpeg" alt="screenshot">}}
