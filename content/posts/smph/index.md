@@ -6,7 +6,7 @@ image: "image.jpeg"
 tags: ["projet","brassage", "bière", "outils", "houblon", "IBU"]
 ---
 
-{{< img src="image.jpeg" alt="screenshot" width="10%">}}
+{{< img src="image.jpeg" alt="screenshot" width="50%">}}
 
 Cette application web permet d’estimer l’amertume d’une bière à partir des caractéristiques de la cuve, du moût et des ajouts de houblon.  
 Elle repose sur le modèle SMPH (Surface de contact Mout/Houblon), prenant en compte la géométrie de la cuve (diamètre), le volume de moût, les pertes, la densité et la vitesse d’évaporation.
