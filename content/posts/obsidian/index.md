@@ -2,12 +2,12 @@
 title: Obsidian
 date: 2026-05-06
 draft: false
-image: image.jpeg
+image: image.jpg
 tags:
   - outils
 ---
 
-{{< img src="image.jpeg" alt="screenshot" width="30%">}}
+{{< img src="image.jpg" alt="screenshot" width="30%">}}
 
 À la recherche d’une solution simple pour poster sur mon blog, je tombe sur un workflow impliquant Obsidian. J’avais déjà entendu ce nom au détour d’une conversation, une application de prise de note. Et j’en était resté là. Je ne suis pas de ceux qui prennent des notes. Je notes parfois des informations dont je veux me souvenir dans un futur plus ou moins proche, mais rien qui nécessite une application plus poussée que les notes de l’iPhone ou le notepad de mon ordinateur. J’ai essayé [Notion](https://www.notion.com) pendant un temps et les features supplémentaires bien qu’impressionnantes n’ont pas suffit à me retenir.
 Mais cette fois c’est différent. Cette application pourrait me permettre de publier sur mon blog de n’importe où, juste en modifiant un fichier en markdown.
