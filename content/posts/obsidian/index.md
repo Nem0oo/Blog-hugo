@@ -13,4 +13,4 @@ tags:
 Mais cette fois c’est différent. Cette application pourrait me permettre de publier sur mon blog de n’importe où, juste en modifiant un fichier en markdown.
 Le principe est simple : mon blog est fait grâce à [Hugo]([https://gohugo.io](https://gohugo.io/)) et tout est hébergé sur GitHub.
 Obsidian est synchronisée avec le repository du blog, ainsi à chaque fois que je modifie un fichier sur obsidian et le commit, une GitHub actions reconstruit le blog avec les nouveautés.
-Pour tout vous dire, j’écris cet article depuis l’application. Si vous le lisez, c’est que tout a fonctionné — et que j’ai peut-être troqué les notes iPhone contre [Obsidian]([https://obsidian.md](https://obsidian.md/) 
+Pour tout vous dire, j’écris cet article depuis l’application. Si vous le lisez, c’est que tout a fonctionné — et que j’ai peut-être troqué les notes iPhone contre [Obsidian](https://obsidian.md/) 
