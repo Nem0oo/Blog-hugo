@@ -1,7 +1,5 @@
 ---
 title: "Accueil"
-menu: "main"
-weight: 1
 layout: home
 ---
   

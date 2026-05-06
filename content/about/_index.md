@@ -1,7 +1,5 @@
 ---
 title: "À propos"
-menu: "main"
-weight: 20
 ---
 
 Je m’appelle Guillaume — ingénieur en développement informatique de métier, curieux de (presque) tout par nature.  
