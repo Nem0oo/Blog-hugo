@@ -1,6 +1,6 @@
 ---
 title: "Le Blog"
 menu: "main"
-author: "Guillaume"
+Author: "Guillaume"
 weight: 10
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Accueil"
 menu: "main"
-author: "Guillaume"
+Author: "Guillaume"
 weight: 1
 ---
   

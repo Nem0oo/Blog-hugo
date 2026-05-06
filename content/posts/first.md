@@ -1,7 +1,7 @@
 ---
 title: "Tout premier vrai post"
 date: 2025-09-18
-author: "Guillaume"
+Author: "Guillaume"
 draft: false
 ---
 
