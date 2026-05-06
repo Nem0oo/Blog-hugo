@@ -1,7 +1,6 @@
 ---
 title: "Calculateur de Carbonatation"
 date: 2025-09-19
-Author: "Guillaume"
 draft: false
 image: "image.jpeg"
 tags: ["projet","brassage", "bière", "outils"]

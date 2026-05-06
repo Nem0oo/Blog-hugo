@@ -1,7 +1,6 @@
 ---
 title: "À propos"
 menu: "main"
-Author: "Guillaume"
 weight: 20
 ---
 

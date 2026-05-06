@@ -1,7 +1,6 @@
 ---
 title: "Outil de recherche de film"
 date: 2026-05-06
-Author: "Guillaume"
 draft: false
 image: "image.jpeg"
 tags: ["projet", "outils"]

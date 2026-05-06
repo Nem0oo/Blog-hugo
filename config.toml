@@ -9,6 +9,7 @@ theme = "papermod"
 [params]
   ShowToc = true
   ShowReadingTime = true
+  author = "Guillaume"
 
 [markup]
   [markup.goldmark]
