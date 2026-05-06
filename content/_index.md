@@ -2,8 +2,7 @@
 title: "Accueil"
 menu: "main"
 weight: 1
+layout: home
 ---
   
-Bienvenue,  
-Salut ! Je suis Guillaume — un curieux invétéré, passionné par tout ce qui éveille l’esprit ou fait battre le cœur un peu plus fort.
-Ici, je partage un bout de mon univers : des projets perso, des explorations techniques, des notes de voyage, des réflexions éparses et parfois quelques expériences un peu folles.
+Salut, je suis Guillaume. Je code, je brase, je pick des locks et je fais de l'apnée — pas forcément dans cet ordre. Ce blog c'est là où tout ça atterrit.
