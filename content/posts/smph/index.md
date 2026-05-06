@@ -1,6 +1,7 @@
 ---
 title: "Calculateur d'IBU SMPH"
 date: 2025-09-22
+author: "Guillaume"
 draft: false
 image: "image.jpeg"
 tags: ["projet","brassage", "bière", "outils", "houblon", "IBU"]
