@@ -11,7 +11,8 @@ paginate = 5
   ShowToc = true
   ShowReadingTime = true
   author = "Guillaume"
-  homeInfoParams = true
+  [homeInfoParams.Title] = "Salut"
+  [homeInfoParams.Content] = "Salut, je suis Guillaume. Je code, je brase, je pick des locks et je fais de l'apnée — pas forcément dans cet ordre. Ce blog c'est là où tout ça atterrit."
   mainSections = ["posts"]
 
 [markup]
