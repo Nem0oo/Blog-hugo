@@ -12,6 +12,7 @@ paginate = 5
   ShowReadingTime = true
   author = "Guillaume"
   homeInfoParams = true
+  mainSections = ["posts"]
 
 [markup]
   [markup.goldmark]
