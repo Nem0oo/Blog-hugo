@@ -7,6 +7,11 @@ tags:
   - outils
   - IA
   - projet
+  - Garmin
+  - sport
+  - running
+  - course
+  - marathon
 ---
 Ça fait un peu plus d’un an que j’ai repris la course, d’abord pour la santé, puis l’idée de courir un semi-marathon s’est doucement installée… 
 N’ayant aucune connaissance en performance de course à pied, j’ai tout naturellement été poser des questions à un LLM, à l’époque ChatGPT. 
