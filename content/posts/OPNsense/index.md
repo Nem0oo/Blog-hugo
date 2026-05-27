@@ -18,4 +18,4 @@ Bien qu'ayant trouvé l'idée très intéressante, la mise en place me parraissa
  * Je subis des attaques malgré la faible visibilité de mon serveur
 
 Ayant déjà OPNsense installé, ajouter cette liste dynamique ne me coute finalement pas grand chose et permettra même de justifier de sa présence.
-Je vais donc documenter ici tout ce que je met en oeuvre. Je n'invente rien et je vais absolument tout pomper de la procédure [indiquée par le projet](https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist#community--vendor-tutorials) pour OPNsense
+Je vais donc documenter ici tout ce que je met en oeuvre. Je n'invente rien et je vais absolument tout pomper de la procédure [indiquée par le projet](https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist#community--vendor-tutorials) pour OPNsense.
