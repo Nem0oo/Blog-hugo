@@ -1,7 +1,7 @@
 ---
 title: "Mon lab était une passoire"
 date: 2026-05-27
-draft: true
+draft: false
 image: image.jpg
 tags:
   - project
