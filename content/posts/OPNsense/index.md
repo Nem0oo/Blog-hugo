@@ -21,11 +21,15 @@ Au niveau des VMs tout passe par OPNsense que j’ai déjà installé, ajouter c
 Je ne vais pas tout détailler ici, de toute façon je n'invente rien et je vais absolument tout pomper de la procédure [indiquée par le projet](https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist#community--vendor-tutorials) pour OPNsense.
 
 OPNsense étant hébergé sur une VM, Proxmox n’en bénéficie pas. Je vais donc sécuriser ce point.
-Proxmox intègre un pare-feu, somme toute très bien mais qui ne gère pas les liste d’ip dynamique via une url. Je vais donc rester sur des points basique mais nécessaire.
+Proxmox intègre un pare-feu, somme toute très bien mais qui ne gère pas les liste d’ip dynamique via une url. Je vais donc rester sur des points basiques mais nécessaire.
  * Refuser les connexions ssh avec password,
  * Installation de fail2ban avec jail ssh et jail interface web proxmox,
   *la jail ssh est rendu inutile par la connexion avec certificat obligatoire mais je la met par principe*
  * Mise en place de la MFA sur l’accès web Proxmox (TOTP et WebAuth)
  * Vérification de l’activation de unattended-upgrade pour bénéficier des mises à jour de sécurité automatiquement.
+
+Depuis, plus une seule attaque ! 
+Bien sûr je rigole, les attaques continueront mais maintenant OPNsense filtre les entrées, le certificat sur ssh bloque les intrus, fail2ban les empêche de revenir en passant par le web.
+Je sais que je pourrais limiter encore plus en limitant l’accès à un VPN, mais certains réseau que j’utilise ne me permettent pas l’usage de VPN.
 
  
